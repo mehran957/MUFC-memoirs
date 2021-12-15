@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fuzzy+Bubbles&display=swap');
+
+
+*{box-sizing: border-box;}
+
+body{
+    background-image: url("mufc_background.jpg");
+    background-size: cover;
+}
+
+.spacing{line-height: 0;}
+
+h1 {
+    color: rgb(204, 4, 4);
+    font-size: 75px;
+    font-family: 'Bebas Neue', cursive;
+    
+    }
+
+h2{color: white;
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-shadow: 2px 2px 5px red}
+
+h3{color: white;
+    font-family: 'Bebas Neue', cursive}
+
+h4{
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    text-shadow: 2px 2px 2px red
+}
+p{
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: rgba(236, 228, 228, 0.815);
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+.nav a {
+    color: red;
+    text-decoration: none;
+
+}
+
+/* for class we use '.', for id we use '#' */
+.left{text-align: left;}
+.right{text-align: right;}
+.centre{
+    
+    text-align: center;
+}
+
+
+.squad{
+    display: flex;
+    flex-direction: row;
+    min-height: 50vh;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+
+}
+
+.player{
+    display: flex;
+    color:white;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.david_de_gea{background-image: url(ddg.jpg);
+background-size:cover;
+background-repeat: no-repeat;}
+.luke_shaw{background-image: url(luke_shaw.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.harry_maguire {background-image: url(harry_maguire.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.raphael_varane{background-image: url(rv.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.awb {background-image: url(awb.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.paul_pogba{background-image: url(pp.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.fred{background-image: url(fred1.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.scott_mctominay{background-image: url(sm.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.marcus_rashford{background-image: url(mr.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.mason_greenwood{background-image: url(mason.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+.cr7{background-image: url(cr7.jpg);
+background-size: cover;
+background-repeat: no-repeat;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
